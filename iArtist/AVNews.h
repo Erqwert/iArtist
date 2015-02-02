@@ -13,4 +13,7 @@
 
 @interface AVNews : UITableViewController
 
+@property (strong, nonatomic) AVManager *datManger;
+@property (strong, nonatomic) AVSession *session;
+
 @end

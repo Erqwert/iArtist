@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AVPicture.h"
+#import "AVAuthor.h"
 
 @interface AVNewsTableCell : UITableViewCell
+
+@property (strong, nonatomic) AVPicture *newsPicture;
+@property (strong, nonatomic) AVAuthor *newsAutor;
 
 @end
