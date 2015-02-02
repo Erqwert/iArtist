@@ -67,5 +67,7 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:@"GoToPictures" object:nil userInfo:nil];
 }
 
+NSZone *zone;
+NSObject *object;
 
 @end

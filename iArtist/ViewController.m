@@ -12,6 +12,8 @@
 #import "StyleCarouselDelegateAndDataSource.h"
 #import "TagCarouselDelegateAndDataSource.h"
 
+#import "AVManager.h"
+
 @interface ViewController (){
     PriceCarouselDelegateAndDataSource* priceCarouselDAndDS;
     SizeCarouselDelegateAndDataSource* sizeCarouselDAndDS;
@@ -140,6 +142,7 @@
 }
 
 -(void)goToPictures{
+    
     [self performSegueWithIdentifier:@"Paintings" sender:nil];
 }
 
